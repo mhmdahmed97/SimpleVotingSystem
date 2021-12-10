@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.switcher">
+   <top>
+      <AnchorPane prefHeight="481.0" prefWidth="913.0" style="-fx-background-color: black; -fx-border-color: #00ff00; -fx-border-width: 4;" BorderPane.alignment="CENTER">
+         <children>
+            <ButtonBar layoutX="50.0" layoutY="44.0" prefHeight="40.0" prefWidth="200.0" />
+            <Button alignment="CENTER" layoutX="302.0" layoutY="210.0" mnemonicParsing="false" onAction="#switcher3" prefHeight="46.0" prefWidth="200.0" text="VoteCaster">
+               <font>
+                  <Font size="19.0" />
+               </font></Button>
+            <Button alignment="CENTER" layoutX="302.0" layoutY="138.0" mnemonicParsing="false" onAction="#switchr2" prefHeight="42.0" prefWidth="199.0" text="Admin" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="19.0" />
+               </font></Button>
+            <Label layoutX="6.0" text="I am" textFill="#f8f8f8">
+               <font>
+                  <Font size="94.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
